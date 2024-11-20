@@ -1,60 +1,108 @@
-
 /* styling for icons for features end */
-svg{
+svg {
   height: 100px;
   width: 100px;
 }
+
 circle {
   fill: transparent;
   stroke: orange;
   stroke-width: 3;
 }
+
 .dashed {
   stroke-dasharray: 2, 5;
 }
+
 .dotted {
-    stroke-dasharray: 0.1, 12.5;
-    stroke-linecap: round;
+  stroke-dasharray: 0.1, 12.5;
+  stroke-linecap: round;
 }
+
 .image {
-    height: 100px;
-    width: 100px;
-    color: orange;
-    font-weight: bold;
-    text-align: center;
-    line-height: 100px;
+  height: 100px;
+  width: 100px;
+  color: orange;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
 }
-  .icon{
-    height: 2.5rem;
- }
-.round{
+
+.icon {
+  height: 2.5rem;
+}
+
+.round {
   display: flex;
 }
 
-.content{
-  margin-top: 0.8rem;
+.content {
+  margin: 0.8rem;
+}
+/* styling for icons for features end */
+.OUR {
+  text-align: center;
 }
 
-
- /* styling for icons for features end */
-  .OUR{
-    text-align: center;
-  }
-
-.card-title{
-    font-family: 'Poppins', sans-serif;
-    font-size: 21   px;
-    font-weight: 700;
-    margin-bottom: 15px;
+.orange-text {
+  color: orange;
 }
+
+.card-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 21 px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
 span {
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 15px;
-}
-.product-price{
-    display: flex;
-    flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
+.product-price {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.section-title p {
+  font-size: 15px;
+  width: 530px;
+  margin: 0 auto;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.8;
+}
+
+.section-title h3:after {
+  position: absolute;
+  content: '';
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 50px;
+  height: 2px;
+  background-color: #F28123;
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: "poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+::after {
+  box-sizing: border-box;
+}
+
+.section-title h3 {
+  font-size: 40px;
+  position: relative;
+  padding-bottom: 15px;
+}
