@@ -1,4 +1,8 @@
 /* styling for icons for features end */
+.info-box{
+  display: flexbox;
+}
+
 svg {
   height: 100px;
   width: 100px;
@@ -40,20 +44,7 @@ circle {
   margin: 0.8rem;
 }
 /* styling for icons for features end */
-.OUR {
-  text-align: center;
-}
 
-.orange-text {
-  color: orange;
-}
-
-.card-title {
-  font-family: 'Poppins', sans-serif;
-  font-size: 21 px;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
 
 span {
   font-family: 'Poppins', sans-serif;
@@ -62,17 +53,5 @@ span {
   margin-bottom: 15px;
 }
 
-.product-price {
-  display: flex;
-  flex-direction: column;
-}
 
-
-
-h3 {
-  font-family: "poppins", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 2rem;
-}
 
