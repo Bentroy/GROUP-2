@@ -2,6 +2,7 @@
 .row{
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 svg {
@@ -35,14 +36,16 @@ circle {
 
 .icon {
   height: 2.5rem;
+  padding-top: 1.8rem;
 }
 
 .round {
   display: flex;
 }
 
-.content {
-  margin: 0.8rem;
+.content{
+  line-height: 0.5rem;
+  padding-top: 0.5rem;
 }
 /* styling for icons for features end */
 
