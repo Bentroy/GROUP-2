@@ -1,6 +1,7 @@
 /* styling for icons for features end */
-.info-box{
-  display: flexbox;
+.row{
+  display: flex;
+  flex-direction: row;
 }
 
 svg {
