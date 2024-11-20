@@ -38,7 +38,7 @@ circle {
 }
 
 .dashed {
-  stroke-dasharray: 2, 5;
+  stroke-dasharray: 2, 5  ;
 }
 
 .dotted {
