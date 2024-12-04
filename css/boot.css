@@ -62,15 +62,13 @@ circle {
 
 .round {
 display: flex;
-}
+} 
 
 .content{
   line-height: 0.5rem;
   padding-top: 0.5rem;
 }
 /* styling for icons for features end */
-
-
 
   .section-header {
     text-align: center;
