@@ -1,3 +1,4 @@
+
 body {
     font-family: Poppins, sans-serif;
     margin: 0;
@@ -10,14 +11,13 @@ body {
 
 
 
-/* styling for icons for features end */
+/* styling for icons for features begining */
 .row{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 100%;
   padding: 1.5rem;
 }
 .info-box{
